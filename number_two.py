@@ -3,21 +3,21 @@
           #solution
 #approach one
 
-# base= int(input("Enter the base of a triangle:"))
-# height = int(input("Enter the height of a triangle:"))
-# area_of_a_triangle = ((1/2)*base*height)
-# print(f"The area of a triangle is :{area_of_a_triangle:}")
+base= int(input("Enter the base of a triangle:"))
+height = int(input("Enter the height of a triangle:"))
+area_of_a_triangle = ((1/2)*base*height)
+
+print(f"The area of a triangle is :{area_of_a_triangle:}")
 
 # # approach two
- 
-# def area_of_triangle ():
+def area_of_triangle ():
     
-#     base= int(input("Enter the base of a triangle:"))
-#     height = int(input("Enter the height of a triangle:"))
-#     area = ((1/2)*base*height)
-#     print(f"The area of a triangle of base {base} and height {height} is {area:}")
+     base= int(input("Enter the base of a triangle:"))
+     height = int(input("Enter the height of a triangle:"))
+     area = ((1/2)*base*height)
+print(f"The area of a triangle of base {base} and height {height} is {area:}")
 
-# area_of_triangle()
+area_of_triangle()
 
 
 #approach three
